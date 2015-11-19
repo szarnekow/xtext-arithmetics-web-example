@@ -8,3 +8,4 @@ xtend-gen/
 .classpath
 **/WebRoot/xtext-resources/generated/
 bin/
+!gradle-wrapper.jar
