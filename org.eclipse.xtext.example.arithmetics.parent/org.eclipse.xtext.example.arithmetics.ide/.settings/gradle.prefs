@@ -1,0 +1,8 @@
+{
+	"1.0": {
+		"project_path": ":org.eclipse.xtext.example.arithmetics.ide",
+		"project_dir": "/Users/zarnekow/projects/xtext-arithmetics-web-example/org.eclipse.xtext.example.arithmetics.parent/org.eclipse.xtext.example.arithmetics.ide",
+		"connection_project_dir": "/Users/zarnekow/projects/xtext-arithmetics-web-example/org.eclipse.xtext.example.arithmetics.parent",
+		"connection_gradle_distribution": "GRADLE_DISTRIBUTION(WRAPPER)"
+	}
+}

@@ -1,0 +1,32 @@
+buildscript {
+	repositories {
+		jcenter()
+	}
+	dependencies {
+		classpath 'org.xtend:xtend-gradle-plugin:0.4.12'
+	}
+}
+
+subprojects {
+	ext.xtextVersion = '2.9.0.rc2'
+	repositories {
+		jcenter()
+	}
+	
+	apply plugin: 'java'
+	apply plugin: 'org.xtend.xtend'
+	apply from: "${rootDir}/gradle/source-layout.gradle"
+	apply from: "${rootDir}/gradle/maven-deployment.gradle"
+	apply plugin: 'eclipse'
+	apply plugin: 'idea'
+	
+	group = 'org.eclipse.xtext.example.arithmetics'
+	version = '1.0.0-SNAPSHOT'
+	
+	sourceCompatibility = '1.8'
+	targetCompatibility = '1.8'
+	
+	configurations.all {
+		exclude group: 'asm'
+	}
+}

@@ -1,0 +1,4 @@
+include 'org.eclipse.xtext.example.arithmetics'
+include 'org.eclipse.xtext.example.arithmetics.ide'
+include 'org.eclipse.xtext.example.arithmetics.web'
+include 'org.eclipse.xtext.example.arithmetics.tests'

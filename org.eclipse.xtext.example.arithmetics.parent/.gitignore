@@ -1,0 +1,10 @@
+/.gradle/
+build/
+target/
+src-gen/
+xtend-gen/
+.settings/gradle*
+.project
+.classpath
+**/WebRoot/xtext-resources/generated/
+bin/
